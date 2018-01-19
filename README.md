@@ -13,14 +13,14 @@ Créer un fichier pour le serveur, à la base le fichier s'appelle `index.js` ma
 
 ## Installer les dépendances
 Pour créer un serveur NodeJS en utilisant le framework ExpressJs, il faut commencer par l'installer sur le serveur avec la commande :
-````
+```
 npm install --save express
 ```
 
 Un serveur NodeJS de base a besoin d'un dossier nommé `views` pour héberger les vues client. Nous allons modifier le nom de ce dossier par `www`grâce à la dépendance `path` :
 ```
 npm install --save path
-````
+```
 
 Un serveur NodeJS doit pouvoir analyser les données d'une requête, par exemple lors de la validation d'un formulaire, les données sont envoyées sur le serveur via une adresse API. Pour se faire, il faut installer la dépendance `body-parser`:
 ```
